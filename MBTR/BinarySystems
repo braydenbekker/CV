@@ -1,0 +1,58 @@
+Alloys, Compounds, and Mixtures
+Grouped by the number of elements or species, not the type of bonding.
+Binaries (two elements)
+Al-Co DONE EAM	
+Ag-Cu DONE .
+Al-Cu DONE .	
+Al-Fe DONE EAM	
+Al-H  DONE .	
+Al-Mg DONE EAM
+Al-Ni DONE .	
+Al-Pb DONE .		
+Al-Ti DONE EAM	
+C-Fe  DONE EAM	
+C-H   DONE .
+Ce-O  DONE .			
+Co-Ni DONE EAM	
+Cr-Fe DONE .
+Cr-Ni DONE EAM	
+Cu-Fe DONE EAM	
+Cu-Ni DONE .	
+Cu-Pb DONE .	
+Cu-Ta DONE .	
+Cu-Zr DONE EAM				
+Fe-Mn DONE .
+Fe-Ni DONE EAM
+Fe-P  DONE EAM	
+Fe-Ti DONE .	
+Fe-V  DONE . 						
+Ni-Nb DONE . 	
+Ni-Ti DONE .	
+Ni-Zr DONE EAM			
+H-Pd  DONE EAM		
+Ti-O  DONE .
+Zr-Nb DONE .
+
+Al-Sm MAKESTR CHANGE EAM	
+U-N	
+UO2	
+(U,Pu,Np)O2	
+U-Zr		
+
+
+Ternaries (three elements)
+AgTaO3	
+Al-Mn-Pd	
+C-H-O	
+Fe-Cu-Ni	
+Fe-Ni-Cr	
+Fe-Ti-C
+Ni-Al-Co	
+Ni-Al-H	
+Pd-Ag-H	
+U-Mo-Xe	
+W-H-He
+
+Higher order (four or more elements)
+Al-Si-Mg-Cu-Fe	
+Zn-Cd-Hg-S-Se-Te (II-VI semiconductor compounds)

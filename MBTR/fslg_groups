@@ -1,0 +1,19 @@
+# location of the group directory
+cd ~/fsl_groups/fslg_MBTR
+
+#add the following line to submission scripts to allow visualization of output by all users.
+SBATCH --gid=fslg_MYGROUP.
+
+#Default directory quota of 40gb and is backed up.
+
+Caveats
+Running your jobs under a different group can cause some interesting debugging problems. ptrace functionality may not work correctly:
+
+
+$ gdb ./prog -p 1234
+...
+ptrace: Operation not permitted.
+
+$ strace -p 1234
+attach: ptrace(PTRACE_ATTACH, ...): Operation not permitted
+This is because ptrace expects the UID and primary GID to match that of the target process. To debug a job running as group fslg_MYGROUP, run newgrp fslg_MYGROUP. This will place you in a new shell with fslg_MYGROUP as your primary group (compare `id` output before and after). gdb and strace should then work with -p.
