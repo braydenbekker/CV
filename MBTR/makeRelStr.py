@@ -829,9 +829,6 @@ def _make_structures(args):
         space_data["aBas"] = _cartesian2direct(space_data["sLV"],
                                               space_data["aBas"],system["eps"])
 
-        print space_data["aBas"]
-        print space_data["sLV"]
-
         _write_POSCAR(system,space_data,structure,args)
         
 def examples():

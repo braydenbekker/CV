@@ -13,7 +13,7 @@ all_elements ={"H": 3.75,"He": 3.57,"Li": 3.49,"Be": 2.29,"B": 8.73,"C": 3.57,"N
                "Ru": 2.7,"Rh": 3.8,"Pd": 3.89,"Ag": 4.09,"Cd": 2.98,"In": 4.59,"Sn": 5.82,
                "Sb": 4.51,"Te": 4.45,"I": 7.27,"Xe": 6.2,"Cs": 6.05,"Ba": 5.02,"Hf": 3.2,
                "Ta": 3.31,"W": 3.16,"Re": 2.76,"Os": 2.64,"Ir": 3.84,"Pt": 3.92,"Au": 4.08,
-               "Hg": 2.99,"Tl": 3.46,"Pb": 4.95,"Bi": 4.75,"Sm": 3.62,"U":2.8537}
+               "Hg": 2.99,"Tl": 3.46,"Pb": 4.95,"Bi": 4.75}
 
 verbosity = None
 """The verbosity level of messages being printed by the module."""
