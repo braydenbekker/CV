@@ -1,0 +1,88 @@
+---
+abstract: |
+    One of the central problems in materials research is accurately
+    predicting the properties of an alloy. Computational materials discovery
+    has the potential to open the floodgates for human progression. Our
+    society, built upon the materials discoveries of the past, lies in wait
+    for the discovery of the next material that will change the world.
+...
+
+\[b\]<span>0.75</span> **My Research Impact**\
+*An Overview of the he Progress and Impact of My Research*\
+**Brayden Bekker**\
+Brigham Young University Department of Physics and Astronomy\
+`brayden.bekker@byu.edu` — 1 (801) 931 7583\
+
+\[b\]<span>0.25</span> ![image](BYU.png){width="16cm"}\
+
+<span>2</span>
+
+About Me {#about-me .unnumbered}
+========
+
+I am an undergraduate at Brigham Young University studying Physics. I
+joined the Materials Simulation Group (MSG) My freshman year after Dr.
+Hart presented the group’s research in Physcs 191. During my time in the
+group I have: developed programming skills in C++, and python, learned
+good coding practices, and learned how to work together with a team to
+find solutions to important problems.
+
+Introduction {#introduction .unnumbered}
+============
+
+In the past metallurgists made there discoveries through an exhaustive
+trial and error process which eventually resulted in a happy mistake.
+
+![image](RoyPlunkett.png){width="0.6\linewidth"}
+
+Roy Plunkett was trying to create a new refrigerant when a buildup of a
+waxy material started to form on the inside of the container of CFC
+gasses he was working with. Teflon soon followed. With computers came
+computational methods which remove much of the guess work, however,
+these modern processes of materials prediction are still too slow.
+
+![image](materialscooking.png){width="0.6\linewidth"}
+
+Imagine for me a stocked pantry, to create a dessert by trial and error
+would be a time consuming disaster. A cookbook provides necessary
+directions. If you know the recipe than the desired result can be
+achieved. If you imagine now, a materials pantry stocked with every
+possible configuration of elements the number of combinations are
+infinite. The existing computational methods like DFT (Density
+Functional Theory) act as materials cookbooks. While the existing
+“materials cookbooks” remove the guess work they have a time consuming
+method for searching the “table of contents” to continue or example. DFT
+makes accurate predictions but at high computational cost.
+
+![image](MBTR.png){width="0.6\linewidth"}
+
+My current research is with the recently proposed Many Body Tensor
+Representation (MBTR) for atomic systems. This machine learning approach
+uses the existing materials “cookbooks” to train and then make
+out-of-sample predictions. My project researches the ability of MBTR to
+replace the existing materials “cookbooks” using machine learning to
+predict new materials at a faster rate.
+
+Main Objectives {#main-objectives .unnumbered}
+===============
+
+1.  Search the Interatomic Potentials Repository for binary/ternary
+    systems with EAM potentials
+
+2.  Use Enumlib to get the derivative superstructures for each system
+
+3.  For each system from FCC, BCC, and HCP choose 2500 derivative
+    structures: the first 500 and 2000 additional structures from 10-12
+    atom cells.
+
+4.  Relax the atomic positions and compute energies per atom
+    and enthalpy.
+
+5.  Plot the convex hull and verify with AFLOW that results are similar
+    (EAM potentials will not match results, here we are only looking for
+    general similarities.)
+
+6.  Save the data for each system to a HDF5 file for ease of
+    data access.
+
+7.  Use results to train and predict in MBTR
