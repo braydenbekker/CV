@@ -24,8 +24,6 @@ Projects
 
 My current research is with the recently proposed [Many Body Tensor Representation](https://arxiv.org/abs/1704.06439) (MBTR) for atomic systems. This method interpolates the materials space to achieve accurate results at a fraction of the computational cost of existing methods. My project researches the application of MBTR for representing binary/ternary alloys and using machine learning to predict new materials at a faster rate.
 
-Generating a database of adequate size, to achieve accurate results by interpolation, using [DFT](https://en.wikipedia.org/wiki/Density_functional_theory) calculations is too computationally demanding. We instead use [EAM potentials](https://en.wikipedia.org/wiki/Embedded_atom_model) from the [Interatomic Potentials Repository](https://www.ctcms.nist.gov/potentials/) in the [Lammps](http://lammps.sandia.gov/) molecular dynamics code to generate a sufficiently large data set of empirical pseudopotentials from binary and ternary alloys. With accurate and computationally efficient large-scale predictions using MBTR, we show the ability of this method to meet the increasing demands for fast and accurate materials prediction. 
-
 * [Project Impact](README.md) gives an overview of the scope and purpose of my research 
 
 * [Project Context](Context.md) is an interactive ipython noteboook with walks throughs and explanations of my methodology.
