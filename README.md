@@ -2,9 +2,11 @@ Brayden Bekker
 ============
 
 -----------------------------------                ----------------------------
-Brigham Young University                                 brayden.bekker@byu.edu
+Brigham Young University                                 
 Department of Physcis and Astronomy                        
-Materials Simulation Group                                       (801) 931-7583
+Materials Simulation Group
+brayden.bekker@byu.edu
+(801) 931-7583
 -----------------------------------                ----------------------------
 
 About Me
@@ -20,52 +22,23 @@ Projects
 
 **Many Body Tensor Representation:**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+My current research is with the recently proposed [Many Body Tensor Representation](https://arxiv.org/abs/1704.06439) (MBTR) for atomic systems. This method interpolates the materials space to achieve accurate results at a fraction of the computational cost of existing methods. My project researches the application of MBTR for representing binary/ternary alloys and using machine learning to predict new materials at a faster rate.
 
-* First item
+Generating a database of adequate size, to achieve accurate results by interpolation, using [DFT](https://en.wikipedia.org/wiki/Density_functional_theory) calculations is too computationally demanding. We instead use [EAM potentials](https://en.wikipedia.org/wiki/Embedded_atom_model) from the [Interatomic Potentials Repository](https://www.ctcms.nist.gov/potentials/) in the [Lammps](http://lammps.sandia.gov/) molecular dynamics code to generate a sufficiently large data set of empirical pseudopotentials from binary and ternary alloys. With accurate and computationally efficient large-scale predictions using MBTR, we show the ability of this method to meet the increasing demands for fast and accurate materials prediction. 
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+* [Project Impact](README.md) gives an overview of the scope and purpose of my research 
 
-**That Other Job You Had**
+* [Project Context](Context.md) is an interactive ipython noteboook with walks throughs and explanations of my methodology.
 
-Also with a short description.
+* [Project Results](results.md) reviews current progress and or results and what my work has contributed.
 
-Technical Experience
+Programming Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+|Language|Experience|Usage                                  |
+|--------|----------|---------------------------------------|
+|Python  |1-year    |Materials Simulation Group BYU         |
+|C++     |3-years   |CS 142 at BYU and personal projects    |
+|r       |2-years   |Research Assistant Geography BYU       |
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+: I run Linux on my machine and am familiar with operating in a UNIX shell.
