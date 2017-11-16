@@ -28,7 +28,7 @@ My current research is with the recently proposed [Many Body Tensor Representati
 
 * [Project Context](https://github.com/braydenbekker/MBTR-EAM/blob/master/Context.ipynb) is an interactive ipython noteboook with walks throughs and explanations of my methodology.
 
-* [Project Results](https://github.com/braydenbekker/MBTR-EAM/blob/master/RESULTS.md) reviews current progress and or results and what my work has contributed.
+* [Project Results](https://github.com/braydenbekker/MBTR-EAM/blob/master/RESULTS.ipynb) reviews current progress and or results and what my work has contributed.
 
 Programming Experience
 --------------------
