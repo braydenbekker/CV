@@ -62,8 +62,13 @@ def main():
     
     first=sys.argv[1]
     second=sys.argv[2]
-    species="%s_%s"%(first, second)
-    system="%s %s"%(first, second)
+    if(argv[3]):
+        third=sys.argv[3]
+        species="%s_%s_%s"%(first, second, third)
+        system="%s %s %s"%(first, second, third)
+    else:
+        species="%s_%s"%(first, second)
+        system="%s %s"%(first, second)
 
     os.mkdir("Structures")
     os.mkdir("./Structures/fcc")
