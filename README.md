@@ -24,11 +24,11 @@ Projects
 
 My current research is with the recently proposed [Many Body Tensor Representation](https://arxiv.org/abs/1704.06439) (MBTR) for atomic systems. This method interpolates the materials space to achieve accurate results at a fraction of the computational cost of existing methods. My project researches the application of MBTR for representing binary/ternary alloys and using machine learning to predict new materials at a faster rate.
 
-* [Project Impact](https://github.com/braydenbekker/MBTR-EAM/blob/master/README.md) gives an overview of the scope and purpose of my research 
+* [Project Impact](https://github.com/braydenbekker/EAM-MBTR/blob/master/README.md) gives an overview of the scope and purpose of my research 
 
-* [Project Context](https://github.com/braydenbekker/MBTR-EAM/blob/master/Context.ipynb) is an interactive ipython noteboook with walks throughs and explanations of my methodology.
+* [Project Context](https://github.com/braydenbekker/EAM-MBTR/blob/master/Context.ipynb) is an interactive ipython noteboook with walks throughs and explanations of my methodology.
 
-* [Project Results](https://github.com/braydenbekker/MBTR-EAM/blob/master/RESULTS.ipynb) reviews current progress and or results and what my work has contributed.
+* [Project Results](https://github.com/braydenbekker/EAM-MBTR/blob/master/RESULTS.ipynb) reviews current progress and or results and what my work has contributed.
 
 Programming Experience
 --------------------
