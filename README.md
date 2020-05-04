@@ -15,10 +15,14 @@ About Me
 2016-2020 (expected)
 :   **Bachelors Physics**; Brigham Young University (Provo)
 
-I am an undergraduate at Brigham Young University studying Physics. I joined the Materials Simulation Group (MSG) My freshman year after Dr. Hart presented the group's research in Physcs 191. During my time in the group I have developed programming skills in C++ and python, learned good coding practices, and learned how to work together with a team to find solutions to important problems. 
+I am an undergraduate at Brigham Young University studying Physics. I joined the Materials Simulation Group (MSG) My freshman year after Dr. Hart presented the group's research in Physcs 191. During my time in the group I have developed programming skills in python, julia, bash, C++, and learned how to work together with a team to find solutions to important problems. 
 
 Projects
 ----------
+
+**Multi-Alloy Potentials with SHIPs**
+
+**Quaternary Alloy Potentials with Moment Tensor Potentials **
 
 **Many Body Tensor Representation:**
 
