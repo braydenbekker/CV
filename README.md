@@ -22,7 +22,7 @@ Projects
 
 **Multi-Alloy Potentials with SHIPs**
 
-**Quaternary Alloy Potentials with Moment Tensor Potentials **
+**Quaternary Alloy Potentials with Moment Tensor Potentials**
 
 **Many Body Tensor Representation:**
 
@@ -39,8 +39,10 @@ Programming Experience
 
 |Language|Experience|Usage                                  |
 |--------|----------|---------------------------------------|
-|Python  |1-year    |Materials Simulation Group BYU         |
-|C++     |3-years   |CS 142 at BYU and personal projects    |
-|r       |2-years   |Research Assistant Geography BYU       |
+|Python  |4 yrs     |Materials Simulation Group BYU         |
+|Bash    |4 yrs     |Materials Simulation Group BYU         |
+|Julia   |3 yrs     |Materials Simulation Group BYU         |
+|C++     |4 yrs     |CS 142 at BYU and personal projects    |
+|r       |2 yrs     |Research Assistant Geography BYU       |
 
-: I run Linux on my machine and am familiar with operating in a UNIX shell.
+: I run Linux, MacOS, and Windows on my machine and am familiar with operating in a UNIX shell.
