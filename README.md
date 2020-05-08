@@ -22,7 +22,11 @@ Projects
 
 **Multi-Alloy Potentials with SHIPs**
 
+With details on the project and documentation of my code found at: [SHIPs](https://bbekker.gitbook.io/ships/)
+
 **Quaternary Alloy Potentials with Moment Tensor Potentials**
+
+With details on the project and documentation of my code found at: [tips](https://bbekker.gitbook.io/tips/)
 
 **Many Body Tensor Representation:**
 
